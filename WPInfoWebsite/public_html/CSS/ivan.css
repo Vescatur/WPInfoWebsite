@@ -11,3 +11,17 @@ and open the template in the editor.
 p {
    color:red;
 }
+
+table {
+    border: 1px solid greenyellow;
+}
+
+
+th {
+    border: 1px solid greenyellow;
+    background-color: orange;
+}
+
+td {
+    border: 1px solid greenyellow;
+}
