@@ -9,9 +9,19 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="CSS/ivan.css">
+        <script type="text/javascript">
+            function swapStyleSheet(sheet){
+                document.getElementById('pagestyle').setAttribute('href', sheet)
+            }
+        </script>
     </head>
     <body>
         <a href="index.html" >Terug naar index</a><br>
+        <nav>
+            <button onclick="swapStyleSheet('CSS/ivan.css')">Ivan</button>
+            <button onclick="swapStyleSheet('CSS/wesley.css')">Wesley</button>
+        </nav>
         <h1>Ivan Hop</h1>
         <h2>Lintworm</h2>
         <p>Mijn motto is<b> Hop Hop Hop alles is op</b></p>
