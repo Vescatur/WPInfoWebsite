@@ -11,3 +11,19 @@ and open the template in the editor.
 p {
    color:blue;
 }
+
+table {
+   border: 1px solid black;
+   border-collapse: collapse;
+   border-color: #4CAF50;
+}
+
+body
+{
+background-color: #F0F8FF;
+margin-left: 10px;
+}
+
+h1 {
+    color: red;
+} 
