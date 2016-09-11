@@ -1,4 +1,254 @@
 body
 {
- background-color: #884433;   
+    background-color: #000000;
+}
+
+.spacer
+{
+    width: 70%;
+    margin: auto;
+}
+
+nav div
+{
+   background-color: #000000;
+   position: relative;
+   display: inline-table;
+}
+
+nav div a
+{
+    color: #FF6560;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 16px;
+    font-family: Comic Sans MS;
+    
+}
+
+nav div a:hover
+{
+    background-color: #555555;
+    font-family: Comic Sans MS;
+}
+
+.dropbtn
+{
+    
+    background-color: #000000;
+    color: #FF6560;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Comic Sans MS;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.button {
+    background-color: #000000;
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Comic Sans MS;
+}
+
+.button:hover 
+{
+    background-color: #555555;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555555;
+}
+
+/*Main Stuff*/
+.info
+{
+    border: solid 5px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-top: -1200px;
+    box-shadow: 10px 10px #333333;
+    height: 1100px;
+    font-family: Comic Sans MS;
+}
+
+h1
+{
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+h2
+{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 15px;
+    border-bottom: solid 4px;
+    font-family: Comic Sans MS;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+    border: solid 4px;
+}
+
+ h3
+{
+    border-top: solid 4px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+}
+
+ul
+{
+    padding-bottom: 15px;
+    border-bottom: solid 4px;
+    font-family: Comic Sans MS;
+}
+
+ul li
+{
+    width: 25%;
+    margin: auto;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+p
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    padding-bottom: 20px;
+    border-bottom: solid 4px;
+}
+
+table
+{
+    background-color: #E3E3D0;
+    margin: auto;
+    border: solid 2px;
+    font-family:  Comic Sans MS;
+    font-size: 24px;
+}
+
+table th
+{
+    border: solid 2px;
+}
+
+table td
+{
+    border: solid 2px;
+}
+
+/*Coloring Background*/
+.red
+{
+    background-color: #FF6560;
+    width: 100%;
+    height: 180px;
+}
+
+.orange
+{
+    background-color: #FF8E54;
+    top: 14%;
+    width: 100%;
+    height: 180px;
+}
+
+.yellow
+{
+    background-color: #E8D95D;
+    top: 28%;
+    width: 100%;
+    height: 180px;
+}
+
+.green
+{
+    background-color: #46E34B;
+    top: 42%;
+    width: 100%;
+    height: 180px;
+}
+
+.blue
+{
+    background-color: #7FA2FF;
+    width: 100%;
+    height: 180px;
+}
+
+.indigo
+{
+    background-color: #B066E8;
+    width: 100%;
+    height: 180px;
+}
+
+.violet
+{
+    background-color: #E065E8;
+    width: 100%;
+    height: 180px;
+}
+
+/*Coloring Text*/
+#red
+{
+    color: #FF6560;
+}
+
+#orange
+{
+    color: #FF8E54;
+}
+
+#yellow
+{
+    color: #E8D95D;
+}
+
+#green
+{
+    color: #46E34B;
+}
+
+#blue
+{
+    color: #7FA2FF;
+}
+
+#indigo
+{
+    color: #B066E8;
+}
+
+#violet
+{
+    color: #E065E8;
 }

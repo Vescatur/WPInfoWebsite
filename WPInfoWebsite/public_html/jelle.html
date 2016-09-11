@@ -2,43 +2,81 @@
 <html>
 
     <head>
-        <link rel="stylesheet" href="CSS/jelle.css">
         <title>Jelle's Pagina</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="CSS/jelle.css">
+        <script type="text/javascript">
+            function swapStyleSheet(sheet) {
+                document.getElementById('pagestyle').setAttribute('href', sheet)
+            }
+        </script>
     </head>
     <body>
+        
 
-        <h1>Jelle van Ommen</h1>
-        <h2>Mijn pagina</h2>
-        <img src="http://i.imgur.com/lsATUpO.jpg" alt="Profiel foto">
-        <h3>Hobby's</h3>
-        <ul>
-            <li>Leren programmeren</li>
-            <li>Lezen</li>
-            <li>Wandelen</li>            
-        </ul>
-        <p>Favoriete website: <a href="https://unity3d.com/">Unity3D.com</a>
-            <br><br>
-            <a href="https://www.facebook.com/jelle.vanommen.52">Link </a>naar mijn Facebook pagina</p>
-        <br>
-        <table border = "1">
-            <tr>
-                <th>Opleiding</th>
-                <th>Jaartal</th>
-            </tr> 
-            <tr>
-                <td>O.B.S. De Eemster</td>
-                <td>2004-2012</td>
-            </tr>
-            <tr>
-                <td>Stad en Esch Lyceum</td>
-                <td>2012-2016</td>
-            </tr>
-            <tr>
-                <td>Windesheim</td>
-                <td>2016-</td>
-            </tr>
-        </table>
+        <nav>
+            <div ><a href="index.html">Main Menu</a></div>   
+            <div class="dropdown">
+                <button class="dropbtn">Styles</button>
+                <div  class="dropdown-content">
+                    <div class="button" id="orange" onclick="swapStyleSheet('CSS/wesley.css')">Wesley</div>
+                    <div class="button" id="yellow" onclick="swapStyleSheet('CSS/kevin.css')">Kevin</div>
+                    <div class="button" id="green" onclick="swapStyleSheet('CSS/ivan.css')">Ivan</div>
+                    <div class="button" id="blue" onclick="swapStyleSheet('CSS/erwin.css')">Erwin</div>
+                    <div class="button" id="indigo" onclick="swapStyleSheet('CSS/michael.css')">Michael</div>
+                    <div class="button" id="violet" onclick="swapStyleSheet('CSS/jelle.css')">Jelle</div>
+                    
+                </div>  
+            </div>
+
+        </nav>
+
+        <section>
+            <div class="red"></div>
+            <div class="orange"></div>
+            <div class="yellow"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="indigo"></div>
+            <div class="violet"></div>
+        </section>
+
+
+        <div class="spacer">
+            <div class="info">
+                <h1>Jelle van Ommen</h1>
+                <h2>Mijn pagina</h2>
+                <img src="http://i.imgur.com/lsATUpO.jpg" alt="Profiel foto">
+                <h3>Hobby's</h3>
+                <ul>
+                    <li>Leren programmeren</li>
+                    <li>Lezen</li>
+                    <li>Wandelen</li>            
+                </ul>
+                <p>Favoriete website: <a href="https://unity3d.com/">Unity3D.com</a>
+                    <br><br>
+                    <a href="https://www.facebook.com/jelle.vanommen.52">Link </a>naar mijn Facebook pagina</p>
+                <br>
+                <table>
+                    <tr>
+                        <th>Opleiding</th>
+                        <th>Jaartal</th>
+                    </tr> 
+                    <tr>
+                        <td>O.B.S. De Eemster</td>
+                        <td>2004-2012</td>
+                    </tr>
+                    <tr>
+                        <td>Stad en Esch Lyceum</td>
+                        <td>2012-2016</td>
+                    </tr>
+                    <tr>
+                        <td>Windesheim</td>
+                        <td>2016-</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </body>
 </html>
